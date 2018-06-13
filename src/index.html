@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>AngularQuickstart</title>
@@ -7,8 +8,54 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <style type="text/css">
+    .sk-rotating-plane {
+      width: 40px;
+      height: 40px;
+      background-color: #333;
+      margin: 40px auto;
+      -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
+      animation: sk-rotatePlane 1.2s infinite ease-in-out;
+    }
+
+    @-webkit-keyframes sk-rotatePlane {
+      0% {
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+      }
+      50% {
+        -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+      }
+      100% {
+        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+      }
+    }
+
+    @keyframes sk-rotatePlane {
+      0% {
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+      }
+      50% {
+        -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+      }
+      100% {
+        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+      }
+    }
+  </style>
+
 </head>
+
 <body>
-  <app-root></app-root>
+  <app-root>
+    <div class="sk-rotating-plane"></div>
+  </app-root>
 </body>
+
 </html>
