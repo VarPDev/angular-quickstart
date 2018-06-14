@@ -22,7 +22,7 @@ const appRoute: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent, data: { permission: permissions }, canActivate: [CanAccess] },
   { path: 'other', component: OtherComponent, data: { permission: permissions }, canActivate: [CanAccess] },
-  { path: 'pageNotFound', component: PageNotFoundComponent, data: { permission: permissions }, canActivate: [CanAccess] },
+  { path: 'pageNotFound', component: PageNotFoundComponent },
   { path: '**', redirectTo: 'pageNotFound', pathMatch: 'full' },
 ];
 
@@ -46,6 +46,7 @@ export function appConfigFactory() {
     BrowserAnimationsModule,
     HttpClientModule,
     RouterModule.forRoot(appRoute)
+    // RouterModule.forRoot(appRoute, { enableTracing: true})
   ],
   providers: [
     CanAccess,
