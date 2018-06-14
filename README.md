@@ -44,6 +44,8 @@ Is ready to use and contains a quickstart for these:
 -- Models
 -- Promises
 -- Not found routing
+-- Easy to publish on Heroku
+-- Quick Node server
 
 ## Demo
 
