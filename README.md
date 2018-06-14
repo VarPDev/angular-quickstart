@@ -34,18 +34,18 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Is ready to use and contains a quickstart for these: 
 
--- Guards
--- Services
--- Configuration
--- Environments
--- IE 11 compatibility
--- Animations
--- Named router outlet
--- Models
--- Promises
--- Not found routing
--- Easy to publish on Heroku
--- Quick Node server
+- Guards
+- Services
+- Configuration
+- Environments
+- IE 11 compatibility
+- Animations
+- Named router outlet
+- Models
+- Promises
+- Not found routing
+- Easy to publish on Heroku
+- Quick Node server
 
 ## Demo
 
