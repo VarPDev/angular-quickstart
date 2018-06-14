@@ -3,6 +3,7 @@ body {
     background: url(./assets/img/sfondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
 }
 
 router-outlet~* {
