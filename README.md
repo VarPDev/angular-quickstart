@@ -40,7 +40,6 @@ Is ready to use and contains a quickstart for these:
 - Environments
 - IE 11 compatibility
 - Animations
-- Named router outlet
 - Models
 - Promises
 - Not found routing
