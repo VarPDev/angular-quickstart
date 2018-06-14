@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background: url(./assets/img/sfondo.jpg);
 }
 
 router-outlet~* {
