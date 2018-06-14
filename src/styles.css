@@ -1,8 +1,11 @@
+html {
+    height: 100%;
+}
+
 body {
     margin: 0px;
-    background: url(./assets/img/sfondo.jpg);
+    background: url(./assets/img/sfondo.jpg) no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
     height: 100%;
 }
 
